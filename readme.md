@@ -10,9 +10,9 @@ Once LXAexplorer is started open [127.0.0.1:31312](http://127.0.0.1:31312/) with
 **note**: You need lunexad running in your computer for LXAexplorer to work, unless you are using a remote daemon.
 
 ### Running with a remote daemon
-Use `LXAexplorer --daemon <Remote daemon address>` to start LXAexplorer with a remote node.
+Use `lunexablock --daemon <Remote daemon address>` to start LXAexplorer with a remote node.
 If you wish to use Tor to connect to the remote daemon, start LXAexplorer with:
-`LXAexplorer --proxy socks5://127.0.0.1:9050 --daemon <Remote daemon address>`
+`lunexablock --proxy socks5://127.0.0.1:9050 --daemon <Remote daemon address>`
 
 ## Compiling from source
 You need Go and Git installed to compile LXAexplorer.
